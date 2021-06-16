@@ -1,0 +1,27 @@
+SECOND
+nms_score_threshold:表示nms概率大于该阈值的anchor可以使用
+nms_iou_threshold: 表示iou小于该阈值的才可以使用
+point_cloud_range:表示可以提取voxel的范围，需要注意的时z范围的选取会极大的影响voxel的数量（应该根据实际高度进行选取）
+post_limit_range：表示在进行最后的anchor选取时会进行一定的过滤，一般这个范围取大一点最好
+在该程序中
+		matched_threshold :没有用
+		unmatched_threshold : 没有用
+        	
+        	use_rotate_nms: true：是否使用倾斜nms（对倾斜的目标效果较好）倾斜nms是在cpu下写的，标准nms是在gpu下写的（可以更改）
+        	use_multi_class_nms: 在多类别时没有什么用处（只有在单类目标时会使matched_threshold和unmatched_threshold有效）
+
+
+
+PointPillars:
+效果不错，但是对于车辆的分类效果较差，会在同一个物体中存在自行车，人和车三种框，主要因为在多类别分类时并没有进行分类的概率阈值判定，而是统一进行nms。
+
+
+在分类实现以后，对不同类别使用不同的nms阈值进行选取
+
+
+
+block_factor: 4 越小滤除的越干净
+block_size: 8  越小越干净
+height_threshold: 0.1  根据滤除的高度选择
+####地面点滤出的方法是通过对选择一个建立一个block，然后再根据高度对这个block里面的点云进行滤除
+block的大小为：voxel_size * block_factor * block_size= (0.05 * 1 * 8) 面积越小其计算量越大，但滤除的更干净

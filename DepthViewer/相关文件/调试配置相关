@@ -1,0 +1,15 @@
+1、修改mac地址
+sudo systemctl stop NetworkManager.service
+sudo systemctl disable NetworkManager.service
+sudo ifconfig enp5s0 down
+sudo ifconfig enp5s0 hw ether c4:00:ad:50:ea:a1
+sudo ifconfig enp5s0 up
+sudo systemctl start NetworkManager.service
+
+2、修改IP
+sudo ifconfig enp5s0 192.168.3.183 netmask 255.255.255.0
+
+3、相关技术
+关于python全局变量修改：
+（1）把dict比作鱼缸，里面的k,v比作缸里装的鱼。现在只是把鱼缸丢给了函数，这个鱼缸本身你不能改，但是里面的鱼可以。
+（2）当包含全局变量的模块被重复载入时，之前对全局变量多修改就无效啦！

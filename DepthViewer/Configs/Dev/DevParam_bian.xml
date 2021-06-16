@@ -1,0 +1,621 @@
+<devParam>
+	<lidarParam>
+		<lidarCount>1</lidarCount>
+		<LidarDev>
+			<Lidar1>
+				<srcIp>192.168.12.7</srcIp>
+				<fLidarLatitude>22.9768546291000</fLidarLatitude>
+				<fLidarLongitude>113.3295452925999</fLidarLongitude>
+				<fAngleNorthT>300.82</fAngleNorthT>
+				<fRotationX>0.4</fRotationX>
+				<fRotationY>-0.15</fRotationY>
+				<fRotationZ>0.0</fRotationZ>
+				<fTranslationX>20.0</fTranslationX>
+				<fTranslationY>3.0</fTranslationY>
+				<fTranslationZ>40.0</fTranslationZ>
+				<CameraDev>
+					<Camera1>
+						<cameraIp>192.168.12.4</cameraIp>
+						<nChannel>1</nChannel>
+						<in_parameter>1181.166284, 0, 951.870166, 0, 1174.906986, 528.353799, 0, 0, 1.0</in_parameter>
+						<rotate_matrix>1.667457,1.114990,-0.802915</rotate_matrix>
+						<translation_matrix>162.902294,187.466276,-18.163763</translation_matrix>
+						<dist_matrix>-0.330144, 0.098741, 0.000332, 0.000190, 0</dist_matrix>
+					</Camera1>
+					<Camera3>
+						<cameraIp>192.168.12.2</cameraIp>
+						<nChannel>1</nChannel>
+						<in_parameter>1181.166284, 0, 951.870166, 0, 1174.906986, 528.353799, 0, 0, 1.0</in_parameter>
+						<rotate_matrix>1.729893, -1.116547, 0.731207</rotate_matrix>
+						<translation_matrix>-333.172994, 184.287169, -9.511950</translation_matrix>
+						<dist_matrix>-0.330144, 0.098741, 0.000332, 0.00190, 0</dist_matrix>
+					</Camera3>
+					<Camera4>
+						<cameraIp>192.168.12.3</cameraIp>
+						<nChannel>1</nChannel>
+						<in_parameter>1181.166284, 0, 951.870166, 0, 1174.906986, 528.353799, 0, 0, 1.0</in_parameter>
+						<rotate_matrix>1.919862, 0, 0</rotate_matrix>
+						<translation_matrix>-76.515384, 157.365659, 72.690622</translation_matrix>
+						<dist_matrix>-0.330144, 0.098741, 0.000332, 0.00190, 0</dist_matrix>
+					</Camera4>
+				</CameraDev>
+			</Lidar1>
+			<Lidar2>
+				<srcIp>192.168.12.13</srcIp>
+				<fLidarLatitude>22.9759441589820</fLidarLatitude>
+				<fLidarLongitude>113.3288191047671</fLidarLongitude>
+				<fAngleNorthT>314.314</fAngleNorthT>
+				<fRotationX>0.0</fRotationX>
+				<fRotationY>0.0</fRotationY>
+				<fRotationZ>0.0</fRotationZ>
+				<fTranslationX>0.0</fTranslationX>
+				<fTranslationY>0.0</fTranslationY>
+				<fTranslationZ>0.0</fTranslationZ>
+				<CameraDev>
+					<Camera1>
+						<cameraIp>192.168.12.10</cameraIp>
+						<nChannel>1</nChannel>
+						<in_parameter>1155.023180, 0, 967.178167, 0, 1149.531704, 541.645587, 0, 0, 1.0</in_parameter>
+						<rotate_matrix>1.623926, 1.078120, -0.796605</rotate_matrix>
+						<translation_matrix>159.608412, 193.817348, -21.698845</translation_matrix>
+						<dist_matrix>-0.317613, 0.088368, -0.001007, -0.000789, 0</dist_matrix>
+					</Camera1>
+					<Camera3>
+						<cameraIp>192.168.12.8</cameraIp>
+						<nChannel>1</nChannel>
+						<in_parameter>1155.023180, 0, 967.178167, 0, 1149.531704, 541.645587, 0, 0, 1.0</in_parameter>
+						<rotate_matrix>1.732843, -1.189166, 0.749438</rotate_matrix>
+						<translation_matrix>-325.543450, 187.158664, -18.627095</translation_matrix>
+						<dist_matrix>-0.317613, 0.088368, -0.001007, -0.000789,0</dist_matrix>
+					</Camera3>
+					<Camera4>
+						<cameraIp>192.168.12.9</cameraIp>
+						<nChannel>1</nChannel>
+						<in_parameter>1155.023180, 0, 967.178167, 0, 1149.531704, 541.645587, 0, 0, 1.0</in_parameter>
+						<rotate_matrix>2.137504, 0.019564, -0.015351</rotate_matrix>
+						<translation_matrix>-69.441739, 112.397272, 95.267261</translation_matrix>
+						<dist_matrix>-0.317613, 0.088368, -0.001007, -0.000789,0</dist_matrix>
+					</Camera4>
+				</CameraDev>
+			</Lidar2>
+			<Lidar3>
+				<srcIp>192.168.12.19</srcIp>
+				<fLidarLatitude>22.9752029989194</fLidarLatitude>
+				<fLidarLongitude>113.3278804022179</fLidarLongitude>
+				<fAngleNorthT>321.377</fAngleNorthT>
+				<fRotationX>0.0</fRotationX>
+				<fRotationY>0.0</fRotationY>
+				<fRotationZ>0.0</fRotationZ>
+				<fTranslationX>0.0</fTranslationX>
+				<fTranslationY>0.0</fTranslationY>
+				<fTranslationZ>0.0</fTranslationZ>
+				<CameraDev>
+					<Camera1>
+						<cameraIp>192.168.12.16</cameraIp>
+						<nChannel>1</nChannel>
+						<in_parameter>1181.166284 , 0, 951.870166, 0, 1174.906986, 528.353799, 0, 0, 1.0</in_parameter>
+						<rotate_matrix>1.576454,1.046604,-0.820055</rotate_matrix>
+						<translation_matrix>158.683416,199.351552,-33.215616</translation_matrix>
+						<dist_matrix>-0.330144,0.098741,0.000332,0.00019, 0</dist_matrix>
+					</Camera1>
+					<Camera3>
+						<cameraIp>192.168.12.14</cameraIp>
+						<nChannel>1</nChannel>
+						<in_parameter>1181.166284 , 0, 951.870166, 0, 1174.906986, 528.353799, 0, 0, 1.0</in_parameter>
+						<rotate_matrix>1.743404,   -1.228921, 0.750728</rotate_matrix>
+						<translation_matrix>-321.453768,187.355802,-20.509742</translation_matrix>
+						<dist_matrix>-0.330144,0.098741,0.000332,0.00019, 0</dist_matrix>
+					</Camera3>
+					<Camera4>
+						<cameraIp>192.168.12.15</cameraIp>
+						<nChannel>1</nChannel>
+						<in_parameter>1181.166284 , 0, 951.870166, 0, 1174.906986, 528.353799, 0, 0, 1.0</in_parameter>
+						<rotate_matrix>2.024470,0.020277,-0.012671</rotate_matrix>
+						<translation_matrix>-73.125524,136.248072,85.311342</translation_matrix>
+						<dist_matrix>-0.330144,0.098741,0.000332,0.00019, 0</dist_matrix>
+					</Camera4>
+				</CameraDev>
+			</Lidar3>
+			<Lidar4>
+				<srcIp>192.168.12.25</srcIp>
+				<fLidarLatitude>22.9746839336564</fLidarLatitude>
+				<fLidarLongitude>113.3268057132405</fLidarLongitude>
+				<fAngleNorthT>335.656</fAngleNorthT>
+				<fRotationX>0.0</fRotationX>
+				<fRotationY>0.0</fRotationY>
+				<fRotationZ>0.0</fRotationZ>
+				<fTranslationX>0.0</fTranslationX>
+				<fTranslationY>0.0</fTranslationY>
+				<fTranslationZ>0.0</fTranslationZ>
+				<CameraDev>
+					<Camera1>
+						<cameraIp>192.168.12.20</cameraIp>
+						<nChannel>1</nChannel>
+						<in_parameter>1181.166284,0,951.870166,0,1174.906986,528.353799,0,0,1</in_parameter>
+						<rotate_matrix>1.694450,-1.202400,0.782044</rotate_matrix>
+						<translation_matrix>-322.732144,193.377473,-30.633850</translation_matrix>
+						<dist_matrix>-0.330144,0.098741,0.000332,0.000190, 0</dist_matrix>
+					</Camera1>
+					<Camera3>
+						<cameraIp>192.168.12.21</cameraIp>
+						<nChannel>1</nChannel>
+						<in_parameter>1181.166284,0.000000,951.870166,0.000000,1174.906986,528.353799,0.000000,0.000000,1.000000</in_parameter>
+						<rotate_matrix>2.039121,-0.025626,0.015753</rotate_matrix>
+						<translation_matrix>-73.526625,132.528810,88.101410</translation_matrix>
+						<dist_matrix>-0.330144,0.098741,0.000332,0.000190,0</dist_matrix>
+					</Camera3>
+					<Camera4>
+						<cameraIp>192.168.12.22</cameraIp>
+						<nChannel>1</nChannel>
+						<in_parameter>1181.166284,0.000000,951.870166,0.000000,1174.906986,528.353799,0.000000,0.000000,1.000000</in_parameter>
+						<rotate_matrix>1.621265,1.083707,-0.800733</rotate_matrix>
+						<translation_matrix>159.444094,194.343406,-23.410967</translation_matrix>
+						<dist_matrix>-0.330144,0.098741,0.000332,0.000190,0</dist_matrix>
+					</Camera4>
+				</CameraDev>
+			</Lidar4>
+			<Lidar5>
+				<srcIp>192.168.12.31</srcIp>
+				<fLidarLatitude>22.9743325240624</fLidarLatitude>
+				<fLidarLongitude>113.3256247957487</fLidarLongitude>
+				<fAngleNorthT>342.900</fAngleNorthT>
+				<fRotationX>0.0</fRotationX>
+				<fRotationY>0.0</fRotationY>
+				<fRotationZ>0.0</fRotationZ>
+				<fTranslationX>0.0</fTranslationX>
+				<fTranslationY>0.0</fTranslationY>
+				<fTranslationZ>0.0</fTranslationZ>
+				<CameraDev>
+					<Camera1>
+						<cameraIp>192.168.12.28</cameraIp>
+						<nChannel>1</nChannel>
+						<in_parameter>1155.023180, 0, 967.178167, 0, 1149.531704, 541.645587, 0, 0, 1.0</in_parameter>
+						<rotate_matrix>1.575870,1.187507,-0.871675</rotate_matrix>
+						<translation_matrix>153.716131,203.250539,-52.604528</translation_matrix>
+						<dist_matrix>-0.317613, 0.088368, -0.001007, -0.000789, 0</dist_matrix>
+					</Camera1>
+					<Camera3>
+						<cameraIp>192.168.12.26</cameraIp>
+						<nChannel>1</nChannel>
+						<in_parameter>1155.023180, 0, 967.178167, 0, 1149.531704, 541.645587, 0, 0, 1.0</in_parameter>
+						<rotate_matrix>1.723976, -1.199084, 0.758617</rotate_matrix>
+						<translation_matrix>-324.156470, 188.952899, -22.194520</translation_matrix>
+						<dist_matrix>-0.317613, 0.088368, -0.001007, -0.000789, 0</dist_matrix>
+					</Camera3>
+					<Camera4>
+						<cameraIp>192.168.12.27</cameraIp>
+						<nChannel>1</nChannel>
+						<in_parameter>1155.023180, 0, 967.178167, 0, 1149.531704, 541.645587, 0, 0, 1.0</in_parameter>
+						<rotate_matrix>2.121136, -0.1421100, 0.074565</rotate_matrix>
+						<translation_matrix>-74.145889, 112.143825, 99.199237</translation_matrix>
+						<dist_matrix>-0.317613, 0.088368, -0.001007, -0.000789, 0</dist_matrix>
+					</Camera4>
+				</CameraDev>
+			</Lidar5>
+			<Lidar6>
+				<srcIp>192.168.12.37</srcIp>
+				<fLidarLatitude>22.9740019427648</fLidarLatitude>
+				<fLidarLongitude>113.3242191281648</fLidarLongitude>
+				<fAngleNorthT>345.271</fAngleNorthT>
+				<fRotationX>0.0</fRotationX>
+				<fRotationY>0.0</fRotationY>
+				<fRotationZ>0.0</fRotationZ>
+				<fTranslationX>0.0</fTranslationX>
+				<fTranslationY>0.0</fTranslationY>
+				<fTranslationZ>0.0</fTranslationZ>
+				<CameraDev>
+					<Camera1>
+						<cameraIp>192.168.12.34</cameraIp>
+						<nChannel>1</nChannel>
+						<in_parameter>1155.023180, 0, 967.178167, 0, 1149.531704, 541.645587, 0, 0, 1.0</in_parameter>
+						<rotate_matrix>1.735126, 1.105400, -0.723907</rotate_matrix>
+						<translation_matrix>161.867532, 176.310982, 8.779685</translation_matrix>
+						<dist_matrix>-0.317613, 0.088368, -0.001007, -0.000789, 0</dist_matrix>
+					</Camera1>
+					<Camera3>
+						<cameraIp>192.168.12.32</cameraIp>
+						<nChannel>1</nChannel>
+						<in_parameter>1155.023180, 0, 967.178167, 0, 1149.531704, 541.645587, 0, 0, 1.0</in_parameter>
+						<rotate_matrix>1.749010, -1.075153, 0.704099</rotate_matrix>
+						<translation_matrix>-337.443868, 179.166967, 2.230084</translation_matrix>
+						<dist_matrix>-0.317613, 0.088368, -0.001007, -0.000789, 0</dist_matrix>
+					</Camera3>
+					<Camera4>
+						<cameraIp>192.168.12.33</cameraIp>
+						<nChannel>1</nChannel>
+						<in_parameter>1155.023180, 0, 967.178167, 0, 1149.531704, 541.645587, 0, 0, 1.0</in_parameter>
+						<rotate_matrix>1.960997, -0.216496, 0.143621</rotate_matrix>
+						<translation_matrix>-82.199649, 144.221741, 86.702796</translation_matrix>
+						<dist_matrix>-0.317613, 0.088368, -0.001007, -0.000789, 0</dist_matrix>
+					</Camera4>
+				</CameraDev>
+			</Lidar6>
+			<Lidar7>
+				<srcIp>192.168.12.43</srcIp>
+				<fLidarLatitude>22.9736703894</fLidarLatitude>
+				<fLidarLongitude>113.3228005937</fLidarLongitude>
+				<fAngleNorthT>343.250</fAngleNorthT>
+				<fRotationX>0.0</fRotationX>
+				<fRotationY>0.0</fRotationY>
+				<fRotationZ>0.0</fRotationZ>
+				<fTranslationX>0.0</fTranslationX>
+				<fTranslationY>0.0</fTranslationY>
+				<fTranslationZ>0.0</fTranslationZ>
+				<CameraDev>
+					<Camera1>
+						<cameraIp>192.168.12.40</cameraIp>
+						<nChannel>1</nChannel>
+						<in_parameter>1155.023180, 0, 967.178167, 0, 1149.531704, 541.645587, 0, 0, 1.0</in_parameter>
+						<rotate_matrix>1.735126, 1.105400, -0.723907</rotate_matrix>
+						<translation_matrix>161.867532, 176.310982, 8.779685</translation_matrix>
+						<dist_matrix>-0.317613, 0.088368, -0.001007, -0.000789, 0</dist_matrix>
+					</Camera1>
+					<Camera3>
+						<cameraIp>192.168.12.38</cameraIp>
+						<nChannel>1</nChannel>
+						<in_parameter>1155.023180, 0, 967.178167, 0, 1149.531704, 541.645587, 0, 0, 1.0</in_parameter>
+						<rotate_matrix>1.749010, -1.075153, 0.704099</rotate_matrix>
+						<translation_matrix>-337.443868, 179.166967, 2.230084</translation_matrix>
+						<dist_matrix>-0.317613, 0.088368, -0.001007, -0.000789, 0</dist_matrix>
+					</Camera3>
+					<Camera4>
+						<cameraIp>192.168.12.39</cameraIp>
+						<nChannel>1</nChannel>
+						<in_parameter>1155.023180, 0, 967.178167, 0, 1149.531704, 541.645587, 0, 0, 1.0</in_parameter>
+						<rotate_matrix>1.960997, -0.216496, 0.143621</rotate_matrix>
+						<translation_matrix>-82.199649, 144.221741, 86.702796</translation_matrix>
+						<dist_matrix>-0.317613, 0.088368, -0.001007, -0.000789, 0</dist_matrix>
+					</Camera4>
+				</CameraDev>
+			</Lidar7>
+			<Lidar8>
+				<srcIp>192.168.12.49</srcIp>
+				<fLidarLatitude>22.9733216358291</fLidarLatitude>
+				<fLidarLongitude>113.3213102846250</fLidarLongitude>
+				<fAngleNorthT>343.500</fAngleNorthT>
+				<fRotationX>0.0</fRotationX>
+				<fRotationY>0.0</fRotationY>
+				<fRotationZ>0.0</fRotationZ>
+				<fTranslationX>0.0</fTranslationX>
+				<fTranslationY>0.0</fTranslationY>
+				<fTranslationZ>0.0</fTranslationZ>
+				<CameraDev>
+					<Camera1>
+						<cameraIp>192.168.12.46</cameraIp>
+						<nChannel>1</nChannel>
+						<in_parameter>1155.023180, 0, 967.178167, 0, 1149.531704, 541.645587, 0, 0, 1.0</in_parameter>
+						<rotate_matrix>1.735126, 1.105400, -0.723907</rotate_matrix>
+						<translation_matrix>161.867532, 176.310982, 8.779685</translation_matrix>
+						<dist_matrix>-0.317613, 0.088368, -0.001007, -0.000789, 0</dist_matrix>
+					</Camera1>
+					<Camera3>
+						<cameraIp>192.168.12.44</cameraIp>
+						<nChannel>1</nChannel>
+						<in_parameter>1155.023180, 0, 967.178167, 0, 1149.531704, 541.645587, 0, 0, 1.0</in_parameter>
+						<rotate_matrix>1.749010, -1.075153, 0.704099</rotate_matrix>
+						<translation_matrix>-337.443868, 179.166967, 2.230084</translation_matrix>
+						<dist_matrix>-0.317613, 0.088368, -0.001007, -0.000789, 0</dist_matrix>
+					</Camera3>
+					<Camera4>
+						<cameraIp>192.168.12.45</cameraIp>
+						<nChannel>1</nChannel>
+						<in_parameter>1155.023180, 0, 967.178167, 0, 1149.531704, 541.645587, 0, 0, 1.0</in_parameter>
+						<rotate_matrix>1.960997, -0.216496, 0.143621</rotate_matrix>
+						<translation_matrix>-82.199649, 144.221741, 86.702796</translation_matrix>
+						<dist_matrix>-0.317613, 0.088368, -0.001007, -0.000789, 0</dist_matrix>
+					</Camera4>
+				</CameraDev>
+			</Lidar8>
+			<Lidar9>
+				<srcIp>192.168.12.55</srcIp>
+				<fLidarLatitude>22.9729631680335</fLidarLatitude>
+				<fLidarLongitude>113.3198098654866</fLidarLongitude>
+				<fAngleNorthT>342.250</fAngleNorthT>
+				<fRotationX>0.0</fRotationX>
+				<fRotationY>0.0</fRotationY>
+				<fRotationZ>0.0</fRotationZ>
+				<fTranslationX>0.0</fTranslationX>
+				<fTranslationY>0.0</fTranslationY>
+				<fTranslationZ>0.0</fTranslationZ>
+				<CameraDev>
+					<Camera1>
+						<cameraIp>192.168.12.52</cameraIp>
+						<nChannel>1</nChannel>
+						<in_parameter>1155.023180, 0, 967.178167, 0, 1149.531704, 541.645587, 0, 0, 1.0</in_parameter>
+						<rotate_matrix>1.735126, 1.105400, -0.723907</rotate_matrix>
+						<translation_matrix>161.867532, 176.310982, 8.779685</translation_matrix>
+						<dist_matrix>-0.317613, 0.088368, -0.001007, -0.000789, 0</dist_matrix>
+					</Camera1>
+					<Camera3>
+						<cameraIp>192.168.12.50</cameraIp>
+						<nChannel>1</nChannel>
+						<in_parameter>1155.023180, 0, 967.178167, 0, 1149.531704, 541.645587, 0, 0, 1.0</in_parameter>
+						<rotate_matrix>1.749010, -1.075153, 0.704099</rotate_matrix>
+						<translation_matrix>-337.443868, 179.166967, 2.230084</translation_matrix>
+						<dist_matrix>-0.317613, 0.088368, -0.001007, -0.000789, 0</dist_matrix>
+					</Camera3>
+					<Camera4>
+						<cameraIp>192.168.12.51</cameraIp>
+						<nChannel>1</nChannel>
+						<in_parameter>1155.023180, 0, 967.178167, 0, 1149.531704, 541.645587, 0, 0, 1.0</in_parameter>
+						<rotate_matrix>1.960997, -0.216496, 0.143621</rotate_matrix>
+						<translation_matrix>-82.199649, 144.221741, 86.702796</translation_matrix>
+						<dist_matrix>-0.317613, 0.088368, -0.001007, -0.000789, 0</dist_matrix>
+					</Camera4>
+				</CameraDev>
+			</Lidar9>
+			<Lidar10>
+				<srcIp>192.168.12.66</srcIp>
+				<fLidarLatitude>22.9725601601250</fLidarLatitude>
+				<fLidarLongitude>113.3183278528113</fLidarLongitude>
+				<fAngleNorthT>341.008</fAngleNorthT>
+				<fRotationX>0.0</fRotationX>
+				<fRotationY>0.0</fRotationY>
+				<fRotationZ>0.0</fRotationZ>
+				<fTranslationX>0.0</fTranslationX>
+				<fTranslationY>0.0</fTranslationY>
+				<fTranslationZ>0.0</fTranslationZ>
+				<CameraDev>
+					<Camera1>
+						<cameraIp>192.168.12.63</cameraIp>
+						<nChannel>1</nChannel>
+						<in_parameter>1155.023180, 0, 967.178167, 0, 1149.531704, 541.645587, 0, 0, 1.0</in_parameter>
+						<rotate_matrix>1.735126, 1.105400, -0.723907</rotate_matrix>
+						<translation_matrix>161.867532, 176.310982, 8.779685</translation_matrix>
+						<dist_matrix>-0.317613, 0.088368, -0.001007, -0.000789, 0</dist_matrix>
+					</Camera1>
+					<Camera3>
+						<cameraIp>192.168.12.61</cameraIp>
+						<nChannel>1</nChannel>
+						<in_parameter>1155.023180, 0, 967.178167, 0, 1149.531704, 541.645587, 0, 0, 1.0</in_parameter>
+						<rotate_matrix>1.749010, -1.075153, 0.704099</rotate_matrix>
+						<translation_matrix>-337.443868, 179.166967, 2.230084</translation_matrix>
+						<dist_matrix>-0.317613, 0.088368, -0.001007, -0.000789, 0</dist_matrix>
+					</Camera3>
+					<Camera4>
+						<cameraIp>192.168.12.62</cameraIp>
+						<nChannel>1</nChannel>
+						<in_parameter>1155.023180, 0, 967.178167, 0, 1149.531704, 541.645587, 0, 0, 1.0</in_parameter>
+						<rotate_matrix>1.960997, -0.216496, 0.143621</rotate_matrix>
+						<translation_matrix>-82.199649, 144.221741, 86.702796</translation_matrix>
+						<dist_matrix>-0.317613, 0.088368, -0.001007, -0.000789, 0</dist_matrix>
+					</Camera4>
+				</CameraDev>
+			</Lidar10>
+			<Lidar11>
+				<srcIp>192.168.12.72</srcIp>
+				<fLidarLatitude>22.9721048663</fLidarLatitude>
+				<fLidarLongitude>113.3168669564</fLidarLongitude>
+				<fAngleNorthT>338.408</fAngleNorthT>
+				<fRotationX>0.0</fRotationX>
+				<fRotationY>0.0</fRotationY>
+				<fRotationZ>0.0</fRotationZ>
+				<fTranslationX>0.0</fTranslationX>
+				<fTranslationY>0.0</fTranslationY>
+				<fTranslationZ>0.0</fTranslationZ>
+				<CameraDev>
+					<Camera1>
+						<cameraIp>192.168.12.69</cameraIp>
+						<nChannel>1</nChannel>
+						<in_parameter>1155.023180, 0, 967.178167, 0, 1149.531704, 541.645587, 0, 0, 1.0</in_parameter>
+						<rotate_matrix>1.735126, 1.105400, -0.723907</rotate_matrix>
+						<translation_matrix>161.867532, 176.310982, 8.779685</translation_matrix>
+						<dist_matrix>-0.317613, 0.088368, -0.001007, -0.000789, 0</dist_matrix>
+					</Camera1>
+					<Camera3>
+						<cameraIp>192.168.12.67</cameraIp>
+						<nChannel>1</nChannel>
+						<in_parameter>1155.023180, 0, 967.178167, 0, 1149.531704, 541.645587, 0, 0, 1.0</in_parameter>
+						<rotate_matrix>1.749010, -1.075153, 0.704099</rotate_matrix>
+						<translation_matrix>-337.443868, 179.166967, 2.230084</translation_matrix>
+						<dist_matrix>-0.317613, 0.088368, -0.001007, -0.000789, 0</dist_matrix>
+					</Camera3>
+					<Camera4>
+						<cameraIp>192.168.12.68</cameraIp>
+						<nChannel>1</nChannel>
+						<in_parameter>1155.023180, 0, 967.178167, 0, 1149.531704, 541.645587, 0, 0, 1.0</in_parameter>
+						<rotate_matrix>1.960997, -0.216496, 0.143621</rotate_matrix>
+						<translation_matrix>-82.199649, 144.221741, 86.702796</translation_matrix>
+						<dist_matrix>-0.317613, 0.088368, -0.001007, -0.000789, 0</dist_matrix>
+					</Camera4>
+				</CameraDev>
+			</Lidar11>
+			<Lidar12>
+				<srcIp>192.168.12.81</srcIp>
+				<fLidarLatitude>22.9716423540572</fLidarLatitude>
+				<fLidarLongitude>113.3154122596798</fLidarLongitude>
+				<fAngleNorthT>340.200</fAngleNorthT>
+				<fRotationX>0.0</fRotationX>
+				<fRotationY>0.0</fRotationY>
+				<fRotationZ>0.0</fRotationZ>
+				<fTranslationX>0.0</fTranslationX>
+				<fTranslationY>0.0</fTranslationY>
+				<fTranslationZ>0.0</fTranslationZ>
+				<CameraDev>
+					<Camera1>
+						<cameraIp>192.168.12.78</cameraIp>
+						<nChannel>1</nChannel>
+						<in_parameter>1155.023180, 0, 967.178167, 0, 1149.531704, 541.645587, 0, 0, 1.0</in_parameter>
+						<rotate_matrix>1.735126, 1.105400, -0.723907</rotate_matrix>
+						<translation_matrix>161.867532, 176.310982, 8.779685</translation_matrix>
+						<dist_matrix>-0.317613, 0.088368, -0.001007, -0.000789, 0</dist_matrix>
+					</Camera1>
+					<Camera3>
+						<cameraIp>192.168.12.76</cameraIp>
+						<nChannel>1</nChannel>
+						<in_parameter>1155.023180, 0, 967.178167, 0, 1149.531704, 541.645587, 0, 0, 1.0</in_parameter>
+						<rotate_matrix>1.749010, -1.075153, 0.704099</rotate_matrix>
+						<translation_matrix>-337.443868, 179.166967, 2.230084</translation_matrix>
+						<dist_matrix>-0.317613, 0.088368, -0.001007, -0.000789, 0</dist_matrix>
+					</Camera3>
+					<Camera4>
+						<cameraIp>192.168.12.77</cameraIp>
+						<nChannel>1</nChannel>
+						<in_parameter>1155.023180, 0, 967.178167, 0, 1149.531704, 541.645587, 0, 0, 1.0</in_parameter>
+						<rotate_matrix>1.960997, -0.216496, 0.143621</rotate_matrix>
+						<translation_matrix>-82.199649, 144.221741, 86.702796</translation_matrix>
+						<dist_matrix>-0.317613, 0.088368, -0.001007, -0.000789, 0</dist_matrix>
+					</Camera4>
+				</CameraDev>
+			</Lidar12>
+		</LidarDev>
+		<forwardDstDev>
+			<dev1>192.168.3.188-3010</dev1>
+			<dev2>192.168.3.188-9003</dev2>
+			<dev3>192.168.12.98-9001</dev3>
+			<dev4>192.168.12.81-9001</dev4>
+		</forwardDstDev>
+		<forwardEventDstDev>
+			<dev1>192.168.12.98-6666</dev1>
+			<dev2>192.168.12.81-6666</dev2>
+		</forwardEventDstDev>
+		<nNetworkPort>0</nNetworkPort>
+		<bUseCropRoi>0</bUseCropRoi>
+		<bUseBgdFrameFilter>1</bUseBgdFrameFilter>
+		<bLiveUpdateBgdFrame>0</bLiveUpdateBgdFrame>
+		<bUseVoxelPoints>1</bUseVoxelPoints>
+		<bRotationTranslation>1</bRotationTranslation>
+		<nUdpServicePort>5555</nUdpServicePort>
+		<nEventFdBkPort>5554</nEventFdBkPort>
+		<bSendResult>1</bSendResult>
+		<bHighSpeed>1</bHighSpeed>
+	</lidarParam>
+	<cameraParam>
+		<cameraCount>0</cameraCount>
+		<CameraDev>
+			<Camera1>
+				<cameraIp>192.168.3.37</cameraIp>
+				<nChannel>1</nChannel>
+				<usr />
+				<password>wanji123</password>
+				<in_parameter>1147.9, 0, 951.6894, 0, 1143.4, 566.33, 0, 0, 1.0</in_parameter>
+				<rotate_matrix>1.06539647,-1.82687668,1.37913931</rotate_matrix>
+				<translation_matrix>43.518,171.177,74.362</translation_matrix>
+				<dist_matrix>-0.3335, 0.109, -0.00068918, 0.0013, 0</dist_matrix>
+			</Camera1>
+			<Camera2>
+				<cameraIp>192.168.3.38</cameraIp>
+				<nChannel>1</nChannel>
+				<usr />
+				<password>wanji123</password>
+				<in_parameter>1152.4, 0, 959.4092, 0, 1147.4, 550.0649, 0, 0, 1.0</in_parameter>
+				<rotate_matrix>0.01584703,-2.5926309,1.76196554</rotate_matrix>
+				<translation_matrix>87.55,236.735,-122.542</translation_matrix>
+				<dist_matrix>-0.3341,0.1085,0.000413,0.00070638, 0</dist_matrix>
+			</Camera2>
+			<Camera3>
+				<cameraIp>192.168.3.39</cameraIp>
+				<nChannel>1</nChannel>
+				<usr />
+				<password>wanji123</password>
+				<in_parameter>1148,0,959.0876,0,1144.6,549.3107,0,0,1.0</in_parameter>
+				<rotate_matrix>1.81546331,-0.65539876,0.467501</rotate_matrix>
+				<translation_matrix>307.328,158.564,77.019</translation_matrix>
+				<dist_matrix>-0.3195, 0.0919, -0.000867, -0.000868, 0</dist_matrix>
+			</Camera3>
+			<Camera4>
+				<cameraIp>192.168.3.36</cameraIp>
+				<nChannel>1</nChannel>
+				<usr />
+				<password>wanji123</password>
+				<in_parameter>1167.2, 0, 972.8049, 0, 1162.3, 554.0905, 0, 0, 1.0</in_parameter>
+				<rotate_matrix>0.75649687,2.13602239,-1.5521844</rotate_matrix>
+				<translation_matrix>-202.343,262.929,-257.586</translation_matrix>
+				<dist_matrix>-0.3316,0.1042,0.0011,0.001, 0</dist_matrix>
+			</Camera4>
+		</CameraDev>
+	</cameraParam>
+	<pcAlgParam>
+		<nSyncIdLimitPcOnline>1</nSyncIdLimitPcOnline>
+		<nSyncIdLimitPcOffline>0</nSyncIdLimitPcOffline>
+		<fCropBackSize>0.5</fCropBackSize>
+		<nBmpSize>2000</nBmpSize>
+		<fRadius>2.3</fRadius>
+		<nLastCount>3</nLastCount>
+		<fDis>70</fDis>
+		<fMinZ>-4.5</fMinZ>
+		<fMaxZ>0</fMaxZ>
+		<fCarThreshold>0.25</fCarThreshold>
+		<fConeThreshold>0.75</fConeThreshold>
+		<fMaxAge>4</fMaxAge>
+		<fMinHits>2</fMinHits>
+	</pcAlgParam>
+	<videoAlgParam>
+		<nSyncIdLimitVidOnline>1</nSyncIdLimitVidOnline>
+		<nSyncIdLimitVidOffline>3</nSyncIdLimitVidOffline>
+		<nResizeVideoWidth>416</nResizeVideoWidth>
+		<nResizeVideoHeight>416</nResizeVideoHeight>
+	</videoAlgParam>
+	<uiParam>
+		<bDebug>1</bDebug>
+		<bWriteLog>1</bWriteLog>
+		<bPrintLog>1</bPrintLog>
+		<bAutoConnect>0</bAutoConnect>
+		<nTimeInterval>2</nTimeInterval>
+		<nCacheFileCountLimit>0</nCacheFileCountLimit>
+		<nSaveFileSizeLimit>1099511627000</nSaveFileSizeLimit>
+		<bAbnormalRestart>0</bAbnormalRestart>
+		<fMemPercentMax>90</fMemPercentMax>
+		<fGpuPercentMax>90</fGpuPercentMax>
+		<fFpsMinLimit>8</fFpsMinLimit>
+		<strTerminalId>0100000000000001</strTerminalId>
+		<strKafkaNet>10.102.1.31:9092</strKafkaNet>
+		<strKafkaTopic>V2X_perception</strKafkaTopic>
+		<bRotatingLane>0</bRotatingLane>
+		<fRoughLanRotationX>0</fRoughLanRotationX>
+		<fRoughLanRotationY>0</fRoughLanRotationY>
+		<fRoughLanRotationZ>0</fRoughLanRotationZ>
+		<fRoughLanTranslationX>0</fRoughLanTranslationX>
+		<fRoughLanTranslationY>0</fRoughLanTranslationY>
+		<fRoughLanTranslationZ>0.0</fRoughLanTranslationZ>
+		<fFineLanRotationX>0</fFineLanRotationX>
+		<fFineLanRotationY>0</fFineLanRotationY>
+		<fFineLanRotationZ>0</fFineLanRotationZ>
+		<fFineLanTranslationX>0</fFineLanTranslationX>
+		<fFineLanTranslationY>0</fFineLanTranslationY>
+		<fFineLanTranslationZ>0</fFineLanTranslationZ>
+		<fBoxRotationAngle>0</fBoxRotationAngle>
+		<strAttachedIp>
+			<strIp1>192.168.3.182</strIp1>
+		</strAttachedIp>
+		<alone_to_together_x>0</alone_to_together_x>
+		<alone_to_together_y>0</alone_to_together_y>
+		<nOfflineFrame>5000</nOfflineFrame>
+		<SoftwareStyle>0</SoftwareStyle>
+		<bSaveE1>0</bSaveE1>
+		<bSaveEvent>1</bSaveEvent>
+		<nPlatformB3Frequency>1</nPlatformB3Frequency>
+		<nPlatformB4Frequency>60</nPlatformB4Frequency>
+	</uiParam>
+	<RadarParam>
+		<RadarCount>2</RadarCount>
+		<RadarDev>
+			<Radar1>
+				<srcIp>192.168.3.93</srcIp>
+				<dstIp>192.168.3.99</dstIp>
+				<srcPort>55555</srcPort>
+				<fLidarLatitude>40.0516922</fLidarLatitude>
+				<fLidarLongitude>116.2869907</fLidarLongitude>
+				<fAngleNorthT>160.0</fAngleNorthT>
+				<npRotation1>0.15912047,-0.98725917,0.0</npRotation1>
+				<npRotation2>0.98725917,0.15912047,0.0</npRotation2>
+				<npRotation3>0.0,0.0,1.0</npRotation3>
+				<npTranslation>-0.19329705,0.26478836,-3.9</npTranslation>
+				<fOffset>1.87</fOffset>
+			</Radar1>
+			<Radar2>
+				<srcIp>192.168.3.225</srcIp>
+				<dstIp>192.168.3.99</dstIp>
+				<srcPort>55555</srcPort>
+				<fLidarLatitude>40.0516922</fLidarLatitude>
+				<fLidarLongitude>116.2869907</fLidarLongitude>
+				<fAngleNorthT>160.0</fAngleNorthT>
+				<npRotation1>-0.99563347,-0.09334878,0.0</npRotation1>
+				<npRotation2>0.09334878,-0.99563347,0.0</npRotation2>
+				<npRotation3>0.0,0.0,1.0</npRotation3>
+				<npTranslation>-25.9413007,-11.1392702,-3.9</npTranslation>
+				<fOffset>0.86</fOffset>
+			</Radar2>
+		</RadarDev>
+	</RadarParam>
+</devParam>

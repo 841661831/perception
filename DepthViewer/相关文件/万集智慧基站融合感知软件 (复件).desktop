@@ -1,0 +1,19 @@
+[Desktop Entry]
+Name=Depth
+Name[zh_CN]=万集智慧基站融合感知软件
+GenericName=Diff Viewer
+GenericName[zh_CN]=万集智慧基站融合感知软件
+X-GNOME-FullName=Meld Diff Viewer
+X-GNOME-FullName[zh_CN]=Meld Diff 差异查看器
+Comment=Compare and merge your files
+Comment[zh_CN]=比较和合并您的文件
+Exec=gksu /home/wanji/测试/万集智慧基站融合感知软件V9.1/main/main %F
+Terminal=false
+Type=Application
+Icon=/home/wanji/DepthViewer1.png
+MimeType=application/x-meld-comparison;
+StartupNotify=true
+Categories=GTK;Development;
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=meld
+X-GNOME-Bugzilla-Component=general

@@ -1,0 +1,1 @@
+echo $1 |sudo -S /home/$USER/WJ-ISFP/main
