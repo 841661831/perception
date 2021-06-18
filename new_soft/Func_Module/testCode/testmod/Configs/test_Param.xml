@@ -1,0 +1,28 @@
+<ModParam>
+	<logParam>
+		<s_log_path>/var/log/WJ-GTS-Log</s_log_path>
+		<s_mod_name>mod</s_mod_name>
+		<!--CRITICAL: 50,ERROR: 40,WARNING: 30,INFO: 20,DEBUG: 10,NOTSET: 0-->
+		<n_log_limitlevel>20</n_log_limitlevel>
+		<n_std_limitlevel>20</n_std_limitlevel>
+		<n_log_count>7</n_log_count>
+		<b_std_out>1</b_std_out>
+		<b_log_out>1</b_log_out>
+		<!--"black", "red", "green", "yellow", "blue", "purple", "cyan", "white"-->
+		<n_std_clr>
+			<NOTSET>7</NOTSET>
+			<DEBUG>7</DEBUG>
+			<INFO>7</INFO>
+			<WARNING>3</WARNING>
+			<ERROR>1</ERROR>
+			<CRITICAL>1</CRITICAL>
+		</n_std_clr>
+		<b_debug>1</b_debug>
+	</logParam>
+	<modParam>
+		<list_sub_channel>
+			<channel1>channel1</channel1>
+			<channel2>channel2</channel2>
+		</list_sub_channel>
+	</modParam>
+</ModParam>
